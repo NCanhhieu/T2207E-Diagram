@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/emptyDTD.dtd to edit this template
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT Constacts (contact*)> <!-- ? :0 hoặc 1, * :0 hoặc nhiếu, + :1 hoặc nhiều -->
+<!ELEMENT contact (user+)>
+<!ELEMENT user  (userdetail+, phone+, email)>
+<!ELEMENT userdetail (name, adress, city)>
+<!ELEMENT phone (telephone, mobile)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT adress (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ATTLIST  contact name  ID #REQUIRED
+            colour IDREF #IMPLIED>
+

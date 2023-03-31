@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<?xml-stylesheet type="text/xsl" href="sinhvien.xsl"?>
+
+<listSV
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='sinhvienschema.xsd'>
+    <Sinhvien>
+        <MaSV>sv001</MaSV>
+        <Hoten>Nguyễn văn A</Hoten>
+        <gioitinh>Nam</gioitinh>
+        <NgaySinh>03/03/1992</NgaySinh>
+        <MaLop>CDT2004</MaLop>
+    </Sinhvien>
+    <Sinhvien>
+        <MaSV>sv00M</MaSV>
+        <Hoten>lady</Hoten>
+        <gioitinh>Nu</gioitinh>
+        <NgaySinh>03/11/1997</NgaySinh>
+        <MaLop>CEE123</MaLop>
+    </Sinhvien>
+</listSV>
+

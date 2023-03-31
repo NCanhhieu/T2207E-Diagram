@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<bookstore
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='bookstore1.xsd'>
+    <book ISBN="123">
+        <title>XML Đơn giản</title>
+        <author>Quế Ngọc Hải</author>
+        <category>Lập trình</category>
+        <year>2009</year>
+        <edition>7</edition>
+        <price>$123</price>
+    </book>
+
+</bookstore>
+

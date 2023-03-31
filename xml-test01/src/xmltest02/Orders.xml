@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE root SYSTEM 'Orders.dtd'>
+<Order>
+    <OrderNo>1</OrderNo>
+    <OrderDate>22/2/2022</OrderDate>
+    <CustomerName>Anderw</CustomerName>
+    <Detail>
+        <ItemNo>123</ItemNo>
+        <ItemName>Book of law</ItemName>
+        <Quantity> 1</Quantity>
+        <Price>20$ </Price>    
+    </Detail>
+</Order>
+

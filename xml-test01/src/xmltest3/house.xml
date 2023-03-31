@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+<?xml-stylesheet type="text/css" href="house.css"?>
+<!DOCTYPE Houses SYSTEM 'house.dtd'>
+
+
+<Houses>
+    <house>
+        <room>
+            <dimensions>
+                <width> 21  ms </width>
+                <length>23 ms </length>
+            </dimensions>
+            <windows>
+                <window>
+                    <width> 14 </width>
+                    <elevation> north </elevation>
+                    <height> 12 </height>
+                </window>
+            </windows>
+            <furniture>2 </furniture>
+        </room>
+    </house>
+</Houses>
+

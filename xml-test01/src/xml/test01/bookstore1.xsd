@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XmlSchema.xsd to edit this template
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <!-- Định nghĩa thẻ root gốc tên là bookstore -->
+    <xs:element name="bookstore">
+                <!-- 
+            Trong thẻ bookstore có chứa các thẻ khác do vậy schema cần phải
+            định nghĩa các thẻ bên trong xs:complexType
+        -->
+        <xs:complexType>
+            <xs:sequence>
+                                <xs:element name="book">                                      
+                    <xs:complexType>                        
+                        <xs:sequence>                            
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element name="author" type="xs:string"/>
+                            <xs:element name="category" type="xs:string"/>
+                            <xs:element name="year" type="xs:string"/>
+                            <xs:element name="edition" type="xs:string"/>
+                            <xs:element name="price" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ISBN" type="xs:string"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+
+                
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

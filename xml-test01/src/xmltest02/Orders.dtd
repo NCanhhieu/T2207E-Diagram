@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/emptyDTD.dtd to edit this template
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT Orders (Order*)> <!-- ? :0 hoặc 1, * :0 hoặc nhiếu, + :1 hoặc nhiều -->
+<!ELEMENT Order (OrderNo,OrderDate,CustomerName, Detail+)>
+<!ELEMENT OrderNo (#PCDATA)>
+<!ELEMENT OrderDate (#PCDATA)>
+<!ELEMENT CustomerName (#PCDATA)>
+<!ELEMENT Detail (ItemNo, ItemName, Quantity, Price)>
+<!ELEMENT ItemNo (#PCDATA)>
+<!ELEMENT ItemName (#PCDATA)>
+<!ELEMENT Quantity (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ATTLIST Book Code CDATA "1">
+<!ATTLIST  OrderNo  ID #REQUIRED>
+<!ATTLIST  Quantity CDATA "1">
+<!ATTLIST  Price CDATA "0">
+

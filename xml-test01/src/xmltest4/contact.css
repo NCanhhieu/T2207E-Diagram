@@ -1,0 +1,41 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 22, 2023, 12:46:13 AM
+    Author     : Admin
+*/
+contact{
+     display: block;
+    border: 1px solid red;    
+    width: 300px;
+}
+userdetail{
+     display: block;
+    border: 1px solid red;    
+}
+name{
+     display: block;     
+}
+address{
+     display: block;
+    
+}
+city{
+     display: block;    
+}
+phone{
+     display: block;
+    border: 1px solid red;    
+}
+telephone{
+    display: block;
+}
+
+email{
+     display: block;
+    border: 1px solid red;    
+}
+
+

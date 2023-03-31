@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<listFB
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='football.xsd'>
+    <football>
+        <san>Thống nhất</san>
+        <ngay>2008-08-23</ngay>
+        <doi1>SLNA</doi1>
+        <soBT1>9</soBT1>
+        <doi2>CSG</doi2>
+        <soBT2>9</soBT2>
+    </football>
+ <football>
+        <san>Bình Định</san>
+        <ngay>2008-08-24</ngay>
+        <doi1>HAGL</doi1>
+        <soBT1>1</soBT1>
+        <doi2>BD</doi2>
+        <soBT2>4</soBT2>
+    </football>
+     <football>
+        <san>Vinh</san>
+        <ngay>2008-08-25</ngay>
+        <doi1>GDT</doi1>
+        <soBT1>2</soBT1>
+        <doi2>NCD</doi2>
+        <soBT2>2</soBT2>
+    </football>
+     <football>
+        <san>Nam Định</san>
+        <ngay>2008-08-26</ngay>
+        <doi1>SLNA</doi1>
+        <soBT1>7</soBT1>
+        <doi2>NHACB</doi2>
+        <soBT2>4</soBT2>
+    </football>
+</listFB>
+

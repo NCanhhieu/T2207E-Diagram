@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XmlSchema.xsd to edit this template
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="listFB">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="football" maxOccur="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                               <xs:element name="san" type="xs:string"></xs:element>
+                                  <xs:element name="ngay" type="xs:date"></xs:element>
+                                     <xs:element name="doi1" type="xs:string"></xs:element>
+                                        <xs:element name="soBT1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:maxInclusive value="0"></xs:maxInclusive>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                           <xs:element name="doi2" type="xs:string"></xs:element>
+                                              <xs:element name="soBT2">
+                                                  <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:maxInclusive value="0"></xs:maxInclusive>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                              </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

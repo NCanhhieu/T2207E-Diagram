@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 17, 2023, 8:30:43 PM
+    Author     : Admin
+*/
+
+windows{
+    display: block;
+    border: 1px solid red;      
+    background-color: yellow;
+}
+elevation{
+    color: blue;    
+}
+dimensions{
+    text-indent: 10px;
+    text-transform: uppercase;
+     display: block;
+    border: 1px solid blueviolet;      
+    background-color: yellowgreen;
+}
+
+furniture{
+    display: block;
+    border: 1px solid red;      
+    background-color: yellow;
+}

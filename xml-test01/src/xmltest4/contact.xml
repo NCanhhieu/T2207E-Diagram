@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+<?xml-stylesheet type="text/css" href="contact.css"?>
+<!DOCTYPE Constacts SYSTEM 'contact.dtd'>
+
+
+<Constacts>
+    <contact>
+        <user>
+            <userdetail>
+                <name> Frank Rizzo</name>
+                <adress>1 212  W  304th Street</adress>
+                <city>New york, New york 10011</city>
+            </userdetail>
+            <phone>
+                <telephone>222-555-1212</telephone>
+                <mobile> 212-555-1151 </mobile>
+            </phone>
+            <email> frank.rizzo@franksratchetco.com </email>
+        </user>
+    </contact>
+</Constacts>
+
